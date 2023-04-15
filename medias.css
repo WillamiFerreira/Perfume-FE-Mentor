@@ -30,6 +30,7 @@
 
     .product_info_ct h1:only-of-type {
         font-size: 2em;
+        line-height: 1em;
         font-weight: 700;
         letter-spacing: 0em;
         width: 200px;
