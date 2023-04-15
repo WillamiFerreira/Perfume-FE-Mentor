@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+
+        border-radius: 12px;
+    }
+
+    button {
+        margin: 26px 0 32px 0;
+    }
+
+    .image-ct {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 12px 0 0 12px;
+    }
+
+    .product_info_ct {
+        padding: 32px 32px 0 32px;
+    }
+
+    .product_info_ct>p:first-child {
+        margin-bottom: 14px !important;
+        font-size: 0.875em !important;
+
+    }
+
+    .product_info_ct h1:only-of-type {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 0em;
+        width: 200px;
+        margin-bottom: 26px;
+
+    }
+
+    .product_info_ct p:nth-child(3) {
+        font-family: var(--main-font);
+        margin-bottom: 2.25em;
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 1.600em;
+
+    }
+
+    span p:first-child {
+        font-size: 1.875em;
+    }
+
+    span p:last-child {
+        font-size: 0.875em;
+    }
+
+
+}
